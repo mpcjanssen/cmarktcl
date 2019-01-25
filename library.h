@@ -3,6 +3,10 @@
 
 #include <tcl.h>
 
+#define PKG_NAME "cmark"
+#define PKG_VERSION "0.1"
+
 int DLLEXPORT Cmarktcl_Init(Tcl_Interp * interp);
+
 
 #endif
